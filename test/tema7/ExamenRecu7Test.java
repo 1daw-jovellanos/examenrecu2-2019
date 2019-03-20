@@ -74,7 +74,7 @@ public class ExamenRecu7Test {
         
         assertEquals(1000, h.size());;
         assertEquals(true, h.first() >= 2000);
-        assertEquals(true, h.last() >= 3100);
+        assertEquals(true, h.last() < 3100);
     }
 
     
