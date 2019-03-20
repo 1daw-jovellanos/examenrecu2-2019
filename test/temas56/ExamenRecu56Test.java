@@ -61,7 +61,6 @@ public class ExamenRecu56Test {
 
     @Test(timeout=1000)
     public void testDescifrarTeniente() {
-        System.out.println("descifrarTeniente");
         String exp = "En Villarriba, a 18 de Marzo de 2019";
         String mensaje = "En Villassiba, a 18 df Mas_zzo df 2019";
         assertEquals(exp, ExamenRecu56.descifrarTeniente(mensaje));
